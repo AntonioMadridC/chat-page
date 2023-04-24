@@ -1,0 +1,31 @@
+.chat {
+    max-height: 82vh;
+}
+
+.chatHead {
+    min-height: 10vh;
+    max-height: fit-content;
+}
+
+.chatSend {
+    min-height: 8vh;
+    max-height: fit-content;
+}
+
+.chatAbierto {
+    max-height: 90vh;
+}
+
+.msgBox {
+    position: relative;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.msgTime {
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 0.5rem;
+}
