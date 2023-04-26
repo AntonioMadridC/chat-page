@@ -29,3 +29,11 @@
     right: 0;
     padding-right: 0.5rem;
 }
+
+#profPic {
+    z-index: 2;
+    transition: transform .2s;
+}
+#profPic:hover{
+    transform: scale(2);
+}
